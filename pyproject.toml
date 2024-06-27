@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "projeto-ml"
+version = "0.1.0"
+description = ""
+authors = ["Vinicius Rocha Lima <semanapython@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.36.0"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
